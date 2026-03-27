@@ -48,7 +48,7 @@ export default function Signup() {
                              <input name="password" placeholder="Password"  style={inputCSS(theme)}  onChange={handleChange} />
 
                              <button style={buttonCSS(theme)}  onClick={handleSignup}>Signup</button>
-                             <button onClick={()=>navigate('/login')}>Already Redister</button>
+                             <button style ={{border:'2px soild #ffff', padding:'10px 20px 10px 20px', borderRadius:'20px'}} onClick={()=>navigate('/login')}>Already Register</button>
           </div>
       </div>
   );
